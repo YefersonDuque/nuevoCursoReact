@@ -1,0 +1,30 @@
+iniciar después de ubicarse en la carpeta: 
+1. npm créate vite
+2.crea el nombre de la carpeta.
+3.selecciona react
+4.selecciona JavaScript
+5.se ubica con cd en la carpeta creada
+6.npm i
+7.npm run dev
+8.Ingresa el link que muestra
+
+
+
+-------------------
+
+Crear app de cero en react.
+Verificar que esta node y yarn instalado
+Después de estar ubicado en el archivo donde la va a crear: 
+1. yarn créate vite
+2. Se le pone el nombre al archivo
+3. Seleccionar react
+4. Seleccionar react
+5. Después me ubico de nuevo en la carpeta de react y ejecuto el siguiente: npx create-react-app 'nombre-app'
+Esto se eencarga de crear todos los archivos necesarios.
+
+
+-----------
+Para ejecutar el archivo vite se recomienda desde el cmd: 
+1. verificar si en esta carpeta esta instalado yarn. si no se ejecuta yarn install
+2. Después de eso ejeuta esto ue e dara el link para abir. 
+3. yarn dev

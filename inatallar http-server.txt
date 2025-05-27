@@ -1,0 +1,11 @@
+para inatallar http-server
+
+en el cd si es global se escribe: 
+npm install -g http-server
+si no es global:
+npx http-server
+
+Después de esto se ubica en el archivo a ejecitar y se escribe: 
+http-server -o
+
+y ya esto abre una nueva pestaña 
