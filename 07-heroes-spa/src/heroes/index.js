@@ -1,2 +1,5 @@
 export * from './page'
 export * from './routes/HeroesRoutes.jsx'
+export * from './data'
+export * from './helpers'
+export * from './components'
