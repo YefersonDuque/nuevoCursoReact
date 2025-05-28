@@ -14,5 +14,9 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.5.0",
     "vite": "^6.3.5"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/YefersonDuque/nuevoCursoReact.git",
+  "author": "YefersonDuque <duqueyeferson@gmail.com>",
+  "license": "MIT"
 }
