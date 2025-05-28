@@ -4,12 +4,12 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 export const Navbar = () => {
 
     const navigate = useNavigate();
-  
+
     const onLogout = () => {
-        navigate('/login',{
+        navigate('/login', {
             //El replace nos sirve para cuando cierra el login y se devuelva no le cargue lo que estaba antes intentando entrar a la página de nuevo sin login
-            replace:true
-        })        
+            replace: true
+        })
     }
 
     return (
@@ -38,22 +38,22 @@ export const Navbar = () => {
                     >
                         DC
                     </NavLink>
-                    {/* <NavLink
+                    <NavLink
                         to="/search"
                         className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`}
                     >
-                        SEARCH
-                    </NavLink> */}
+                        Search
+                    </NavLink>
                 </div>
             </div>
 
             <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 dflex justify-content-end">
                 <ul className="navbar-nav ml-auto">
                     <span className='nav-item nav-link text-primary'>
-                        Fernando                        
+                        Fernando
                     </span>
                     <button className='nav-item nav-link btn' onClick={onLogout}>
-                       Logout 
+                        Logout
                     </button>
                 </ul>
             </div>
